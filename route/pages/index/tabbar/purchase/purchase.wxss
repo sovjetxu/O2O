@@ -1,0 +1,84 @@
+/* pages/index/tabbar/purchase/purchase.wxss */
+.vrkc{
+  width: 96%;
+  margin: auto;
+}
+.vrkc>image{
+  width: 94%;
+  margin-left: 3%;
+  height: 400rpx;
+}
+.shangping{
+  font-size: 34rpx;
+  width: 94%;
+  margin-left: 3%;
+  height: 100rpx;
+  border-bottom: 2rpx #b6b6b4 solid;
+}
+.shangping view:first-of-type{
+  float: left;
+  width: 75%;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-top: 20rpx;
+  padding-left: 5%;
+  color: #a7be9e;
+}
+.shangping view:last-of-type{
+  float: left;
+  width: 20%;
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-top: 20rpx;
+  text-align: center;
+  background-color: #80c6ce;
+  color: #ffffff;
+  border-radius: 8rpx;
+}
+.texts{
+  width: 92%;
+  margin: auto;
+  border-bottom: 2rpx #b6b6b4 solid;
+  font-size: 33rpx;
+  padding: 20rpx;
+}
+.bases{
+  width: 96%;
+  margin: auto;
+  height: 100rpx;
+  background-color:#80c6ce;
+  position: absolute;
+  bottom: 20rpx;
+}
+.bases view{
+  float: left;
+}
+.bases view:first-of-type{
+  width: 70%;
+  margin-left: 30rpx;
+  font-size: 34rpx;
+}
+.bases view image{
+  width: 50rpx;
+  height: 50rpx;
+  float: left;
+  margin-top: 25rpx;
+}
+.bases view view{
+  height: 50rpx;
+  margin-top: 25rpx;
+  font-size: 34rpx;
+  color: #ffffff;
+}
+.bases .dingdan{
+  width: 24%;
+  height: 60rpx;
+  text-align: center;
+  line-height: 60rpx;
+  margin-top: 20rpx;
+  border-radius: 10rpx;
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+

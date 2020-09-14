@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/tabbar/recharge/recharge",
+    "pages/index/tabbar/account/account",
+    "pages/logs/logs",
+    "pages/index/tabbar/appoint/appoint",
+    "pages/index/tabbar/indent/indent",
+    "pages/index/tabbar/expenditure/expenditure",
+    "pages/index/tabbar/personal/personal",
+    "pages/index/tabbar/purchase/purchase",
+    "pages/index/tabbar/balance/balance",
+    "pages/index/tabbar/charge/charge"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "斗学商城",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 100
+  },
+  "tabBar": {
+    "color": "#bebebe",
+    "selectedColor": "#00B26A",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "商店",
+        "iconPath": "./img/shangcheng.png",
+        "selectedIconPath": "./img/shangchengend.png"
+      },
+      {
+        "pagePath": "pages/index/tabbar/appoint/appoint",
+        "text": "预约",
+        "iconPath": "./img/yuyue.png",
+        "selectedIconPath": "./img/yuyueend.png"
+      },
+      {
+        "pagePath": "pages/index/tabbar/indent/indent",
+        "text": "订单",
+        "iconPath": "./img/dingdan.png",
+        "selectedIconPath": "./img/dingdanend.png"
+      },
+      {
+        "pagePath": "pages/index/tabbar/account/account",
+        "text": "账户",
+        "iconPath": "./img/zhanghu.png",
+        "selectedIconPath": "./img/zhanghuend.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "sitemapLocation": "sitemap.json"
+}

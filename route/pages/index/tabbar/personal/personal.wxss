@@ -1,0 +1,45 @@
+/* pages/index/tabbar/personal/personal.wxss */
+
+.personal {
+  width: 96%;
+  margin: auto;
+}
+
+.boxs {
+  width: 96%;
+  margin: auto;
+  height: 100rpx;
+  border-bottom: 1rpx solid #dedede;
+  position: relative;
+  font-size: 34rpx;
+}
+
+.boxs .left_top, .boxs .but {
+  float: left;
+  width: 80%;
+}
+
+.boxs .bes {
+  float: right;
+  width: 20%;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.boxs .bes image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 50%;
+}
+
+.boxs .but {
+  color: #888;
+}
+
+button {
+  width: 96%;
+  background: #e74440;
+  color: #fff;
+  position: absolute;
+  bottom: 10rpx;
+}

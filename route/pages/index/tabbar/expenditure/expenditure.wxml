@@ -1,0 +1,10 @@
+<!--pages/index/tabbar/expenditure/expenditure.wxml-->
+<!-- <text>pages/index/tabbar/expenditure/expenditure.wxml</text> -->
+<view class="box" wx:for="{{list}}" wx:key="key">
+  <view class="box_left">
+    <view>{{item.mingcheng}}</view>
+    <view>单号：{{item.numbes}}</view>
+    <view>日期：{{item.riqi}}</view>
+  </view>
+  <view class="box_right">{{item.summer}}</view>
+</view>

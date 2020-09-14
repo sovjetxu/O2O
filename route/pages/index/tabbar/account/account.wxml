@@ -1,0 +1,45 @@
+<!--pages/index/tabbar/account/account.wxml-->
+<!-- <text>pages/index/tabbar/account/account.wxml</text> -->
+<view class="admin">
+  <view class="admin_img">
+  <image src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3002333613,2777880456&fm=15&gp=0.jpg"></image>
+  </view>
+  <view class="admin_top">
+    <view>admin</view>
+    <view>会员卡号：{{192015658546}}</view>
+  </view>
+  <view class="admin_bot">
+    <image src="../../../../img/ewm.png"></image>
+  </view>
+</view>
+<view class="ye" catchtap="ye">
+  <view class="yue">
+    <image src="../../../../img/zhye.png"></image>
+  </view>
+  <view class="zhuti">余额</view>
+  <view class="danjia">
+    <view>￥10</view>
+    <view catchtap="recharge">充值</view>
+  </view>
+</view>
+<view class="xf" catchtap="xf">
+  <view class="jl"><image src="../../../../img/xfjl.png"></image></view>
+  <view class="cont">消费记录</view>
+  <view class="next">
+    <image src="../../../../img/qj.png"></image>
+  </view>
+</view>
+<view class="xf" catchtap="cz">
+  <view class="jl"><image src="../../../../img/czjl.png"></image></view>
+  <view class="cont">充值记录</view>
+  <view class="next">
+    <image src="../../../../img/qj.png"></image>
+  </view>
+</view>
+<view class="xf" catchtap="wode">
+  <view class="jl"><image src="../../../../img/grzl.png"></image></view>
+  <view class="cont">我的资料</view>
+  <view class="next">
+    <image src="../../../../img/qj.png"></image>
+  </view>
+</view>

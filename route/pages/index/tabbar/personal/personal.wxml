@@ -1,0 +1,25 @@
+<!--pages/index/tabbar/personal/personal.wxml-->
+<!-- <text>pages/index/tabbar/personal/personal.wxml</text> -->
+<view class="personal">
+  <view class="boxs">
+    <view>姓名：</view>
+    <input value="{{boxs.name}}"></input>
+  </view>
+  <view class="boxs">
+    <view>联系电话</view>
+    <input value="{{boxs.phone}}"></input>
+  </view>
+  <view class="boxs">
+    <view class="left_top">收货地址(家)</view>
+    <view  catchtap="dizhi" class="bes">
+      <image src="../../../../img/weizhi.png"></image>
+    </view>
+    <input class="but" name="homesite" placeholder="请填写收货地址" value="{{weizhi}}"></input> 
+  </view>
+  <view class="boxs">
+    <view class="left_top">收货地址(公司)</view>
+    <view catchtap="gongsi"  class="bes"><image src="../../../../img/weizhi.png"></image></view>
+    <input class="but" name="homesite" placeholder="请填写收货地址" value="{{gongsi}}"></input> 
+  </view>
+  <button bindtap="buton">确认</button>
+</view>

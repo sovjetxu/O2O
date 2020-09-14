@@ -1,0 +1,85 @@
+/* pages/index/tabbar/indent/indent.wxss */
+.list{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+.list view{
+  width: 32%;
+  height: 60rpx;
+  text-align: center;
+}
+.onne{
+  border-bottom: 4rpx solid #d81e06;
+}
+.total{
+  width: 98%;
+  margin: auto;
+  font-size: 34rpx;
+}
+.boxes{
+  width: 98%;
+  margin: auto;
+  height: 160rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rpx;
+  border-bottom: 1rpx solid #eeeeee;
+}
+.boxes>view:first-of-type{
+  width: 25%;
+  height: 160rpx;
+}
+.boxes>view:first-of-type image{
+  width: 100%;
+  height: 120rpx;
+  margin-top: 20rpx;
+}
+
+
+.boxes .xinxi{
+  width: 72%;
+  height: 160rpx;
+}
+.boxes .xinxi view{
+  height: 33%;
+  padding-left: 30rpx;
+  font-weight: 500;
+}
+.boxes .xinxi view:nth-last-child(2){
+  color: #888888;
+  font-size: 33rpx;
+}
+.boxes>view:last-of-type{
+  width: 23%;
+  height: 70rpx;
+  border: 2rpx solid #d81e06;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 70rpx;
+  color: #d81e06;
+}
+/**第二页哦*/
+.unpaid{
+  width: 98%;
+  margin: auto;
+  font-size: 34rpx;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+}
+/**第三页*/
+.dispatching{
+  width: 98%;
+  margin: auto;
+  font-size: 34rpx;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+}

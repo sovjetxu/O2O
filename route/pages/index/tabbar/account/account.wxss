@@ -1,0 +1,132 @@
+/* pages/index/tabbar/account/account.wxss */
+.admin{
+  width: 98%;
+  margin: auto;
+  margin-bottom: 40rpx;
+  height: 220rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('http://img.zcool.cn/community/01f9aa55498d340000019ae9fb2a3f.jpg');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  border-radius: 10rpx;
+}
+.admin .admin_top{
+  width: 60%;
+  height: 220rpx;
+}
+.admin_img{
+  width: 20%;
+  height: 220rpx;
+}
+.admin_img>image{
+  width: 80%;
+  margin-left: 20%;
+  height: 120rpx;
+  margin-top: 50rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.admin .admin_top view{
+  height: 60rpx;
+  padding-left: 30rpx;
+  font-size: 34rpx;
+  color: #ffffff;
+}
+.admin .admin_top view:first-of-type{
+  margin-top: 55rpx;
+}
+.admin .admin_bot{
+  width: 20%;
+  height: 220rpx;
+}
+.admin .admin_bot image{
+  width: 60rpx;
+  height: 60rpx;
+  margin: 16rpx 0 0 80rpx;
+}
+
+.ye{
+  width: 98%;
+  margin: auto;
+  height: 140rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1rpx solid #dedede;
+}
+.ye .yue{
+  width: 13%;
+  height: 60rpx;
+}
+.ye .yue image{
+  width: 60rpx;
+  height: 60rpx;
+  margin-left: 20rpx;
+}
+.ye .zhuti{
+  width: 60%;
+  height: 50rpx;
+}
+.ye .danjia{
+  width: 27%;
+  height: 50rpx;
+  display: flex;
+  flex-direction: row;
+}
+.ye .danjia view:last-of-type{
+  border: #ff0000 4rpx solid;
+  color: #ff0000;
+  margin-left: 10rpx;
+  font-size: 34rpx;
+  text-align: center;
+  line-height: 50rpx;
+}
+.xf{
+  width: 98%;
+  margin: auto;
+  height: 140rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1rpx solid #dedede;
+}
+.xf .jl{
+  width: 13%;
+  height: 60rpx;
+}
+.xf .jl image{
+  width: 60rpx;
+  height: 50rpx;
+  margin-left: 20rpx;
+}
+.xf .cont{
+  width: 60%;
+  height: 50rpx;
+}
+.xf .next{
+  width: 27%;
+  height: 50rpx;
+  display: flex;
+  flex-direction: row;
+}
+.xf .next image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 5rpx;
+  margin-left: 110rpx;
+}
+
+
+
+
+
+
+
+
+
+

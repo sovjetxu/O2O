@@ -1,0 +1,24 @@
+<!--pages/index/tabbar/appoint/appoint.wxml-->
+<!-- <text>pages/index/tabbar/appoint/appoint.wxml</text> -->
+<form bindsubmit="tijiao">
+<view class="project" catchtap="xuanze">服务项目：{{bindsubmit}}</view>
+<picker class="arrival_date" mode="date" start="2020-01-01" end="2121-01-01" fields="day" value="{{ddrq}}" bindchange="arrivedate" name="riqi">
+  到店日期：{{ddrq}}
+</picker>
+<picker class="arrival_time" mode="time" start="00:00" end="24:00" value="{{ddsj}}" bindchange="arrivetime" name="shijian">
+  到店时间：{{ddsj}}
+</picker>
+<view class="leaveword">
+  <text>留言：</text>
+  <input name="liuyan" value=""></input>
+</view>
+<button form-type="submit">立即预约</button>
+</form>                                       <!-- 用的时候，取消注释即可 -->
+<!-- <button bindtap="click1">显示tabbar右上角的小红点</button>
+<button bindtap="click2">隐藏tabbar右上角的小红点</button>
+<button bindtap="click3">为tabbar右上角添加文本</button>
+<button bindtap="click4">移除tabbar右上角文本</button>
+<button bindtap="click5">隐藏tabbar</button>
+<button bindtap="click6">显示tabbar</button>
+<button bindtap="click7">改变tabbar的内容</button>
+<button bindtap="click8">改变tabbar图标文字颜色</button> -->

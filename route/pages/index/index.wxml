@@ -1,0 +1,42 @@
+<!--index.wxml-->
+<swiper indicator-dots="true" autoplay="true" interval="2000" duration="500" circular="true" class="slideshow">
+  <swiper-item>
+    <image src="{{slideshow[0]}}"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="{{slideshow[1]}}"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="{{slideshow[2]}}"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="{{slideshow[3]}}"></image>
+  </swiper-item>
+</swiper>
+<view class="navigation">
+  <view bindtap="balance">
+    <image src="{{depot[0]}}"></image>
+    <view>账户余额</view>
+  </view>
+  <view bindtap="charge">
+    <image src="{{depot[1]}}"></image>
+    <view>充值记录</view>
+  </view>
+  <view bindtap="expenditure">
+    <image src="{{depot[2]}}"></image>
+    <view>消费记录</view>
+  </view>
+  <view bindtap="personal">
+    <image src="{{depot[3]}}"></image>
+    <view>个人资料</view>
+  </view>
+</view>
+<view class="commodity">
+  <image src="{{depot[1]}}"></image>
+  <view class="message">
+    <view>VR虚拟现实课程</view>
+    <view>￥{{120.0}}</view>
+  </view>
+  <view class="purchase" bindtap="purchase">购买</view>
+</view>
+<view style="width:100rpx;height:800rpx;"></view>

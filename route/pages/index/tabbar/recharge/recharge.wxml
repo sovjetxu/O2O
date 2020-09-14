@@ -1,0 +1,25 @@
+<!--pages/index/tabbar/recharge/recharge.wxml-->
+<!-- <text>pages/index/tabbar/recharge/recharge.wxml</text> -->
+<form bindsubmit="pay">
+  <view class="inputtext">
+    <input type="number" placeholder="请输入充值金额" name="sum" value=""></input>
+  </view>
+  <radio-group name="zffs" class="radio-group">
+    <view class="radio">
+      <view><image src="../../../../img/KJZF.png"></image></view>
+      <view>{{zffs[0]}}</view>
+      <radio value="a" checked="true"></radio>
+    </view>
+    <view class="radio">
+      <view><image src="../../../../img/YLZF.png"></image></view>
+      <view>{{zffs[1]}}</view>
+      <radio value="b"></radio>
+    </view>
+    <view class="radio">
+      <view><image src="../../../../img/WXZF.png"></image></view>
+      <view>{{zffs[2]}}</view>
+      <radio value="c"></radio>
+    </view>
+  </radio-group>
+  <button form-type="submit" class="formbutton">确认</button>
+</form>

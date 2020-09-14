@@ -1,0 +1,32 @@
+/* pages/index/tabbar/appoint/appoint.wxss */
+
+.project,.arrival_date,.arrival_time,.leaveword{
+  width: 94%;
+  margin: auto;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1rpx solid #ededed;
+}
+.leaveword text,.leaveword input{
+  height: 100rpx;
+  float: left;
+}
+
+button{
+  position: fixed;
+  bottom: 0;
+  width: 96%;
+  border-radius: 12rpx;
+  background-color: #ff2150;
+  color: #ffffff;
+  margin-left: 2%;
+}/*用的时候取消备注*/
+
+
+
+
+
+
+
+
+

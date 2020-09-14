@@ -1,0 +1,47 @@
+<!--pages/index/tabbar/indent/indent.wxml-->
+<!-- <text>pages/index/tabbar/indent/indent.wxml</text> -->
+<view class="list">
+  <view wx:for="{{lise}}" wx:key="key" data-id="{{index}}" bindtap="seact" class="on{{teet==index?'ne':''}}">{{item}}</view>
+</view>
+<!-- 全部界面 -->
+<view wx:if="{{teet==0?true:false}}" class="total">
+  <view wx:for="{{list}}" wx:key="key" class="boxes">
+    <view>
+      <image src="{{item.img}}"></image>
+    </view>
+    <view class="xinxi">
+      <view>{{item.merchandise}}</view>
+      <view>单号：{{item.odd}}</view>
+      <view>订单状态：{{item.state}}</view>
+    </view>
+    <view>查看</view>
+  </view>
+</view>
+<!-- 待付款界面 -->
+<view wx:if="{{teet==1?true:false}}" class="unpaid">
+  <view wx:for="{{lisp}}" wx:key="key" class="boxes">
+    <view>
+      <image src="{{item.img}}"></image>
+    </view>
+    <view class="xinxi">
+      <view>{{item.merchandise}}</view>
+      <view>单号：{{item.odd}}</view>
+      <view>订单状态：{{item.state}}</view>
+    </view>
+    <view>查看</view>
+  </view>
+</view>
+<!-- 配送中界面 -->
+<view wx:if="{{teet==2?true:false}}" class="dispatching">
+  <view wx:for="{{lisy}}" wx:key="key" class="boxes">
+    <view>
+      <image src="{{item.img}}"></image>
+    </view>
+    <view class="xinxi">
+      <view>{{item.merchandise}}</view>
+      <view>单号：{{item.odd}}</view>
+      <view>订单状态：{{item.state}}</view>
+    </view>
+    <view>查看</view>
+  </view>
+</view>

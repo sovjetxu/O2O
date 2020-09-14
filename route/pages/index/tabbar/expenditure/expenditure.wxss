@@ -1,0 +1,36 @@
+/* pages/index/tabbar/expenditure/expenditure.wxss */
+.box{
+  width: 96%;
+  margin: auto;
+  height: 160rpx;
+  border-bottom: 1rpx solid #ededed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 34rpx;
+  margin-top: 14rpx;
+}
+.box_left{
+  width: 80%;
+  height: 140rpx;
+  padding-left: 40rpx;
+}
+.box_left view:nth-last-of-type(2){
+  color: #888888;
+  font-size: 32rpx;
+}
+.box_right{
+  width: 20%;
+  height: 140rpx;
+  line-height: 140rpx;
+  font-size: 36prx;
+  color: #ff0000;
+}
+
+
+
+
+
+
+
